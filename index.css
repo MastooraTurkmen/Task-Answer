@@ -23,3 +23,8 @@ nav {
     text-align: center;
     justify-content: space-between;
 }
+
+
+ul {
+    display: flex;
+}
