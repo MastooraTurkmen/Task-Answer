@@ -15,4 +15,5 @@ header {
     max-width: 500px;
     height: 80vh;
     background-position-x: 50%;
+    padding: 2em;
 }
