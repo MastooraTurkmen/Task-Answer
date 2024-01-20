@@ -27,4 +27,5 @@ nav {
 
 ul {
     display: flex;
+    gap: 3em;
 }
