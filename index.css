@@ -17,3 +17,8 @@ header {
     background-position-x: 50%;
     padding: 2em;
 }
+
+nav {
+    display: flex;
+
+}
