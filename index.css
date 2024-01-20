@@ -13,5 +13,5 @@ body {
 header {
     background-image: url(./images/header-background.png);
     max-width: 500px;
-
+    height: 80vh;
 }
