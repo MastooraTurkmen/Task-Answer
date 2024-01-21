@@ -89,3 +89,10 @@ a {
     color: #3c3e40;
     letter-spacing: -.1px;
 }
+
+.history-section {
+    background-image: url(./images/history-background.png);
+    background-size: cover;
+    padding: 3em;
+    margin-top: 0.5em;
+}
