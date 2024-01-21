@@ -12,10 +12,12 @@ body {
 
 header {
     background-image: url(./images/header-background.png);
-    height: 50vh;
+    height: 60vh;
     background-size: cover;
     padding: 2em;
     width: auto;
+    padding-left: 3em;
+    padding-right: 3em;
 }
 
 nav {
@@ -42,6 +44,7 @@ a {
     font-weight: bold;
     text-transform: uppercase;
     font-style: Italic;
+    font-size: 0.8em;
 }
 
 
