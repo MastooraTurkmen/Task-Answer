@@ -12,10 +12,10 @@ body {
 
 header {
     background-image: url(./images/header-background.png);
-    max-width: 500px;
-    height: 80vh;
-    background-position-x: 50%;
+    height: 50vh;
+    background-size: cover;
     padding: 2em;
+    width: auto;
 }
 
 nav {
