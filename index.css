@@ -38,4 +38,7 @@ li {
 a {
     text-decoration: none;
     color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: Italic;
 }
