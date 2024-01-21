@@ -11,11 +11,11 @@ body {
 }
 
 header {
+    font-family: "Roboto Condensed", sans-serif;
     background-image: url(./images/header-background.png);
     height: 60vh;
     background-size: cover;
     padding: 2em;
-    width: auto;
     padding-left: 3em;
     padding-right: 3em;
 }
