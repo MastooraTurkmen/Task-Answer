@@ -96,3 +96,11 @@ a {
     padding: 3em;
     margin-top: 0.5em;
 }
+
+.row-1 img {
+    width: 150px;
+}
+
+.history-text {
+    margin-left: 4em;
+}
