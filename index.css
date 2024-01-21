@@ -36,19 +36,19 @@ ul {
 li {
     list-style-type: none;
     border-bottom: 2px solid white;
+    margin-top: -.8em;
 }
 
 a {
     text-decoration: none;
     color: white;
-    font-weight: bold;
+    font-weight: 500;
     text-transform: uppercase;
     font-style: Italic;
-    font-size: 0.8em;
+    font-size: 0.7em;
 }
 
-
 .mountain-logo {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
