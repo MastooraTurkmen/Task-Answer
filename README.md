@@ -7,18 +7,6 @@ A great views of Los Angeles Mountains. Let's explore :)
 
 -----
 
-## Cloning the project 🪛🔨
-
-```bash
-# Clone this repository
-$ git clone https://github.com/MastooraTurkmen/Task-Answer.git
-
-# Go inside the repository 
-$ cd Task-Answer
-```
-
-----
-
 
 ## Languages and Tools are used 🗣️🔧
 
@@ -37,8 +25,6 @@ $ cd Task-Answer
 
 
 ------
-
-
 
 ## Author 👩🏻‍💻
 
