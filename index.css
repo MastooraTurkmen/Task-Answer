@@ -274,6 +274,7 @@ a {
 
 
 @media (min-width: 1000px) {
+
     header {
         height: 100vh;
     }
