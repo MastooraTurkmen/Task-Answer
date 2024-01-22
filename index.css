@@ -185,3 +185,65 @@ a {
 .slide-content img {
     width: 200px;
 }
+
+/* Fourth Section */
+
+.second-climb {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    padding-left: 2em;
+    padding: 1em 3em;
+}
+
+.second-climb-para {
+    font-size: 0.8em;
+    color: #3a4356;
+    font-family: inherit;
+}
+
+
+.mountains {
+    display: flex;
+    gap: 1em;
+    padding-left: 2em;
+    background-color: #414f6b;
+}
+
+.mountain {
+    padding: 0;
+    margin: 0;
+}
+
+.mountain h2 {
+    margin: 0;
+    color: #626b7e;
+    padding: 0 .5em;
+    text-transform: uppercase;
+    border-bottom: 2px solid #626b7e;
+    font-size: 1em;
+}
+
+#first-mountain h2 {
+    background-color: #626b7e;
+    color: #2b354a;
+    border-bottom: 1px solid #2b354a;
+}
+
+#second-mountain h2 {
+    color: #bbc3d3;
+}
+
+.schedule-section {
+    background-image: url(./images/mountain-1.png);
+    background-size: cover;
+    height: 60vh;
+}
+
+.schedule {
+    padding: 5em 3em;
+}
+
+.schedule img {
+    width: 200px;
+}
