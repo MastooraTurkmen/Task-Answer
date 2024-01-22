@@ -15,15 +15,17 @@
 </head>
 <body>
     <div class="container">
+        <!-- Header -->
         <header class="header">
             <nav>
                 <img class="mountain-logo" src="./images/Mountain-logo.png" alt="Mountain Logo Image">
                 <ul>
-                    <li><a href="#">01.History</a></li>
-                    <li><a href="#">02.Team</a></li>
+                    <li><a href="#history-section">01.History</a></li>
+                    <li><a href="#team">02.Team</a></li>
                 </ul>
             </nav>
         </header>
+        <!-- Second Section -->
         <section class="white section">
             <nav>
                 <div class="section-moutain">
@@ -33,13 +35,14 @@
                         <span class="blue-span">Mountains</span>
                     </div>
                 </div>
-                <ul>
-                    <li><a href="#">01.History</a></li>
-                    <li><a href="#">02.Team</a></li>
+                <ul class="links">
+                    <li><a href="#history-section">01.History</a></li>
+                    <li><a href="#team">02.Team</a></li>
                 </ul>
             </nav>
         </section>
-        <main class="history-section">
+        <!-- Third Section -->
+        <main class="history-section" id="history-section">
             <div class="row-1">
                 <img src="./images/logo-01-history.png" alt="One History">
                 <p class="history-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
@@ -50,26 +53,28 @@
                 </p>
             </div>
             <div class="row-2">
-                <div class="images">
-                    <img src="./images/man-standing.png" alt="A man standing on the Top of the Mountain">
-                    <img src="./images/beautiful-view.png" alt="A beautiful view of Mountain">
-                    <img src="./images/man-standing.png" alt="A man standing on the Top of the Mountain">
-                    <img src="./images/beautiful-view.png" alt="A beautiful view of Mountain">
-                    <img src="./images/man-standing.png" alt="A man standing on the Top of the Mountain">
-                    <img src="./images/beautiful-view.png" alt="A beautiful view of Mountain">
-                    <img src="./images/man-standing.png" alt="A man standing on the Top of the Mountain">
-                    <img src="./images/beautiful-view.png" alt="A beautiful view of Mountain">
-                    <img src="./images/man-standing.png" alt="A man standing on the Top of the Mountain">
-                    <img src="./images/beautiful-view.png" alt="A beautiful view of Mountain">
-                </div>
+                    <div class="slide-content">
+                        <div class="slide-content image-conten">
+                            <img src="./images/man-standing.png" alt="A man standing on the Top of the Mountain">
+                            <img src="./images/beautiful-view.png" alt="A beautiful view of Mountain">
+                            <img class="hid-mobile" src="./images/man-standing.png" alt="A man standing on the Top of the Mountain">
+                            <img class="hid-mobile" src="./images/beautiful-view.png" alt="A beautiful view of Mountain">
+                        </div>
+                        <div class="dots">
+                            <div class="dot-navigation"></div>
+                            <div class="dot-navigation"></div>
+                            <div class="dot-navigation"></div>
+                        </div>
+                    </div>
             </div>
         </main>
-        <main class="climb-section">
+        <!-- Fourth Section -->
+        <main class="climb-section" id="team">
             <div class="second-climb">
-                <img class="second-climb-img" src="./images/02climb.png" alt="Second Climb">
+                <img class="second-climb-img" src="./images/logo-02-climb.png" alt="Second Climb">
                 <p class="second-climb-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
                     Ad, ex deserunt sunt, numquam exercitationem qui sapiente dolores at eligendi illum 
-                    officia vitae placeat, fugit sit rerum harum expedita quo beatae!
+                    officia vitae placeat.
                 </p>
             </div>
             <div class="mountains">
@@ -82,34 +87,16 @@
             </div>
             <div class="schedule-section">
                 <div class="schedule">
-                    <h1>Schedule</h1>
-                    <div class="lists">
-                        <div class="list-one">
-                            <p>25 Nov 2016</p>
-                            <p>Vestibulum viverra</p>
-                        </div>
-                        <div class="list-one">
-                            <p>28 Nov 2016</p>
-                            <p>Vestibulum viverra</p>
-                        </div>
-                        <div class="list-one">
-                            <p>18 Dec 2016</p>
-                            <p>Vestibulum viverra</p>
-                        </div>
-                        <div class="list-one">
-                            <p>7 Jan 2017</p>
-                            <p>Vestibulum viverra</p>
-                        </div>
-                    </div>
+                    <img src="./images/schedule-content.png" alt="Schedule">
                 </div>
             </div>
         </main>
-        <footer class="footer section">
-                <div class="footer-container">
-                    <img src="./images/Mountain-logo.png" alt="Mountain Logo Image">
-                    <p>Losangeles Mountains</p>
-                </div>
+        <!-- Footer -->
+        <footer class="footer">
+            <nav class="nav-footer">
+                <img src="./images/footer-logo.png" alt="Footer Logo">
                 <p>Copyright 2016. All rights reserved.</p>
+            </nav>
         </footer>
     </div>
 </body>
