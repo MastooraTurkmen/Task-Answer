@@ -4,12 +4,13 @@
     box-sizing: border-box;
 }
 
-
 body {
     margin: 0;
     padding: 0;
     font-family: "Roboto Condensed", sans-serif;
 }
+
+/* Header */
 
 header {
     font-family: "Roboto Condensed", sans-serif;
@@ -59,7 +60,7 @@ a {
 
 .white {
     color: #414f6b;
-    padding: 0em 3em;
+    padding: 0em 4em;
     text-transform: uppercase;
     font-family: "Roboto Condensed", sans-serif;
     font-weight: 600;
@@ -91,14 +92,22 @@ a {
     letter-spacing: -.1px;
 }
 
+/* Third Section */
+
 .history-section {
     background-image: url(./images/history-background.png);
     background-size: cover;
-    padding: 3em;
     margin-top: 0.5em;
 }
 
-.row-1 img {
+.row-1 {
+    padding: 3em;
+    padding-left: 4em;
+
+}
+
+.row-1 img,
+.second-climb img {
     width: 150px;
 }
 
@@ -106,4 +115,23 @@ a {
     margin-left: 2.5em;
     color: #3a4356;
     font-family: inherit;
+    font-size: .8em;
 }
+
+.hid-mobile {
+    display: none;
+}
+
+.row-2 {
+    padding: 0;
+    position: relative;
+    margin: 0;
+    height: 45vh;
+}
+
+
+.slide {
+    opacity: 1;
+}
+
+
