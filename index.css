@@ -272,3 +272,83 @@ a {
     text-transform: uppercase;
 }
 
+
+@media (min-width: 1000px) {
+    header {
+        height: 100vh;
+    }
+
+    .row-1,
+    header,
+    .white,
+    .second-climb,
+    .mountains,
+    .schedule {
+        padding: 1em 15em;
+    }
+
+    a,
+    .nav-footer {
+        font-size: 1em;
+    }
+
+    .hid-mobile {
+        display: unset;
+    }
+
+    .mountain-logo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .losangeles {
+        font-size: 1.5em;
+    }
+
+    .links {
+        margin-top: 1em;
+    }
+
+    .row-1 {
+        height: 70vh;
+        padding-top: 2em;
+    }
+
+    .row-1 p,
+    .second-climb-para {
+        font-size: 1em;
+    }
+
+    .mountains {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .mountain h2 {
+        font-size: 1.8em;
+    }
+
+    .schedule {
+        padding-top: 2em;
+        margin-left: 2em;
+    }
+
+    .schedule img {
+        width: 300px;
+    }
+
+    .schedule-section {
+        height: 90vh;
+        background-position-y: 90%;
+    }
+
+    .nav-footer {
+        padding: .5em 10em;
+        font-size: 1.5em;
+    }
+
+    .nav-footer img {
+        width: 200px;
+        height: 50px;
+    }
+}
