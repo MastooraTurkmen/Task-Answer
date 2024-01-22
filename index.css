@@ -152,3 +152,36 @@ a {
     justify-content: center;
 }
 
+.content-images {
+    display: flex;
+    flex-direction: column;
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.slide-content {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 2em 2em;
+    gap: .5em;
+}
+
+
+.image-conten {
+    background-color: rgba(66, 78, 109, 0.5);
+}
+
+.slide-content img {
+    width: 200px;
+}
