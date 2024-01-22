@@ -247,3 +247,28 @@ a {
 .schedule img {
     width: 200px;
 }
+
+/* Footer */
+
+.footer {
+    background-color: #2b354a;
+}
+
+.nav-footer {
+    padding: .5em 2em;
+    display: flex;
+    align-items: center;
+}
+
+.nav-footer img {
+    width: 80px;
+    height: 25px;
+}
+
+.nav-footer p {
+    font-size: .5em;
+    font-family: 'Lato', sans-serif;
+    color: #626b7e;
+    text-transform: uppercase;
+}
+
