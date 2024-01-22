@@ -135,3 +135,20 @@ a {
 }
 
 
+/* Dot navigation item */
+
+.dots {
+    display: flex;
+    gap: .4em;
+    margin-bottom: -1.7em;
+}
+
+.dot-navigation {
+    width: 0.5em;
+    height: 0.5em;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    justify-content: center;
+}
+
